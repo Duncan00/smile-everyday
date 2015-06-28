@@ -2,6 +2,7 @@ language: android
 
 before_install:
   - git submodule update --init --recursive
+  - chmod +x gradlew
 
 env:
   matrix:
